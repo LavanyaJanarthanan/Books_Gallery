@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:url(BOOKBACKGROUND.jpeg);
+}
+.titlebar{
+    text-align: center;
+    padding:10px;
+    color:darkmagenta;
+    background-image: url(bgbook.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container div{
+    border-color: black;
+    border-style:solid;
+    border-width:3px;
+    background-color: white;
+    margin:10px;
+    flex-basis:14%;
+    flex-grow:1;
+    
+}
+.container p{
+    margin-left:8px;
+    margin-right:8px;
+}
+.container img{
+    margin:8px;
+    
+
+}
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
